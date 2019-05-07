@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">রমজানের সময় সূচি</string>
+
+    <string-array name="romjan_date">
+
+        <item> ১ম রমজান </item>
+        <item> ২য় রমজান </item>
+        <item> ৩য় রমজান </item>
+        <item> ৪র্থ রমজান </item>
+        <item> ৫ম রমজান </item>
+        <item> ৬ষ্ঠ রমজান </item>
+        <item> ৭ম রমজান </item>
+        <item> ৮ম রমজান </item>
+        <item> ৯ম রমজান </item>
+        <item> ১১তম রমজান </item>
+        <item> ১২তম রমজান </item>
+        <item> ১৪তম রমজান </item>
+        <item> ১৫তম রমজান </item>
+    </string-array>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#03A9F4"
+    tools:context=".MainActivity">
+
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="180dp"
+        android:dividerHeight="2dp"
+        android:divider="#3F51B5"
+        android:listSelector="#F7F7F7"
+        android:layout_alignParentTop="true"
+        android:layout_height="match_parent">
+    </ListView>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/textView"
+        android:layout_toRightOf="@+id/list_view"
+        android:text="এখন সময়"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <DigitalClock
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:id="@+id/clock"
+       android:layout_toRightOf="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_below="@+id/clock"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:id="@+id/seheri_text_view"
+        android:layout_toRightOf="@+id/list_view"
+        android:text="সেহেরির শেষ\n সময় \n\n ফজরের \n আজান"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/iftari_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seheri_text_view"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="39dp"
+        android:layout_toRightOf="@+id/list_view"
+        android:gravity="center"
+        android:text="ইফতারির \n সময়"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
