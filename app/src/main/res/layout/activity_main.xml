@@ -20,6 +20,7 @@
     </ListView>
 
     <TextView
+
         android:layout_marginTop="10dp"
         android:textStyle="bold"
         android:textColor="#ffff"
@@ -27,7 +28,6 @@
         android:gravity="center"
         android:id="@+id/textView"
         android:layout_toRightOf="@+id/list_view"
-        android:text="এখন সময়"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
